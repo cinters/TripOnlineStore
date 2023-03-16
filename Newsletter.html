@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <title>About Us</title>
+        <link rel="stylesheet" type="text/css" href="reviews.css">
+        <link rel="stylesheet" type="text/css" href="common.css">
+    </head>
+</head>
+
+<body>
+<!-- Navigation -->
+<nav>
+    <li><a class="active" href="HomePage.html">Home</a></li>
+    <li><a href="AboutUs.html">About Us</a></li>
+    <li><a href="ContactUs.html">Contact Us</a></li>
+    <li><a href="reviews.html">Reviews</a></li>
+    <li><a href="Newsletter.html">Newsletter</a></li>
+</nav>
+
+<main>
+    <p id="para">
+        Welcome to the newsletter page!  If you are interested in receiving a newsletter weekly, it will be sent out
+        every sunday morning OR select from the datepicker when you would like to receive your newsletter.  The newsletter will include all of my new pieces and some of the upcoming pieces that will
+        be for sale.
+    </p>
+    <!-- Below is the form of the page -->
+    <form id="myForm">
+        <h2> Newsletter Application </h2>
+        First name:
+        <input type="text" name="firstname" id="fname" placeholder="John" required><br>
+        Last name:
+        <input type="text" name="lastname" placeholder="Doe" required><br>
+        Email:
+        <input type="email" name="email" id="email1" placeholder="johndoe@nomail.com" required><br>
+
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="/resources/demos/style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+        <script>
+            $( function() {
+                $( "#datepicker" ).datepicker();
+            } );
+        </script>
+        </head>
+        <body>
+
+        <p>Date: <input type="text" id="datepicker"></p>
+
+
+        </body>
+        <input type="submit" id="submit1" value="Submit">
+    </form>
+
+</body>
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/dark-hive/jquery-ui.css">
+<link rel="stylesheet" href="/resources/demos/style.css">
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+<script>
+    $( function() {
+        $( "#accordion" ).accordion();
+    } );
+</script>
+</head>
+<body>
+
+<div id="accordion">
+    <h3>Hoodies</h3>
+    <div>
+        <img src="image0.jpeg">
+        <img src="IMG_2261.JPG">
+    </div>
+    <h3>Crewnecks</h3>
+    <div>
+    <p>
+        Coming Soon!
+    </p>
+    </div>
+    <h3>Stickers</h3>
+    <div>
+        <img src="image1.jpeg">
+        <img src="IMG_2263.JPG">
+        <img src="image2.jpeg">
+    </div>
+    <h3>Graphics</h3>
+    <div>
+        <img src="IMG_2262.JPG">
+    </div>
+</div>
+</body>
+</html>

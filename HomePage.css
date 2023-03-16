@@ -1,0 +1,25 @@
+index.css
+
+h2{
+    text-align: center;
+    color: red;
+}
+#row{
+    width: 1020px;
+    margin: auto;
+}
+#row2{
+    width: 1020px;
+    margin: auto;
+}
+.items{
+    padding: 20px;
+    float: left;
+    width: 300px;
+}
+img{
+    height: 200px;
+    width: 250px;
+    border-radius: 25px;
+}
+

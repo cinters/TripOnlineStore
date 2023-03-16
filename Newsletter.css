@@ -1,0 +1,42 @@
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5b5b5e;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #11100f;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #AAA;
+    text-align: center;
+}
+main{
+    width: 80%;
+    padding: 25px 200px;
+    margin: auto;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    float: left;
+
+}
+body{
+    background-color: #b3d4fc;
+}
